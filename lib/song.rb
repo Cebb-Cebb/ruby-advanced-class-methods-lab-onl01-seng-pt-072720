@@ -58,7 +58,7 @@ class Song
   end
   
   def self.create_from_filename(filename)
-    song_array =  filename.split("-") 
+    new_song = filename 
     binding.pry
   end 
   
