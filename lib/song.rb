@@ -63,6 +63,7 @@ class Song
     song.name = result.name
     song.artist_name = result.artist_name
     song
+    binding.pry
   end
   
   def self.create_from_filename(filename)
