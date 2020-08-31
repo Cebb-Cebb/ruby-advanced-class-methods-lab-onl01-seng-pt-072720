@@ -65,11 +65,9 @@ class Song
     song
   end
   
-  # def self.create_from_filename(filename)
-  #   new_song = filename 
+  def self.destroy_all
     
-  # end 
-  
+  end 
   
   
   
